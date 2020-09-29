@@ -10528,6 +10528,26 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: var(--primary) !important;
 }
 
+.color-white {
+  color: #ffffff !important;
+}
+
+.color-black {
+  color: #000000 !important;
+}
+
+.color-transparent {
+  color: #000000 !important;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.bg-light-black {
+  background-color: #212529;
+}
+
 .map-container-2 {
   overflow:hidden;
   padding-bottom:56.25%;
@@ -10540,4 +10560,121 @@ section#contact form#contactForm :-ms-input-placeholder {
   height:100%;
   width:100%;
   position:absolute;
+}
+
+.link-dark {
+  color: #343a40;
+  text-decoration: none;
+  background-color: transparent;
+}
+.link-dark:hover {
+  color: #23272b;
+  text-decoration: none;
+}
+.link-dark:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+.link-dark:not([href]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link-green {
+  color: #33cd39;
+  text-decoration: none;
+  background-color: transparent;
+}
+.link-green:hover {
+  color: #2ba930;
+  text-decoration: none;
+}
+.link-green:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+.link-green:not([href]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link-fb {
+  color: #3a559f;
+  text-decoration: none;
+  background-color: transparent;
+}
+.link-fb:hover {
+  color: #334988;
+  text-decoration: none;
+}
+.link-fb:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+.link-fb:not([href]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link-ig {
+  color: #f05161;
+  text-decoration: none;
+  background-color: transparent;
+}
+.link-ig:hover {
+  color: #c8404e;
+  text-decoration: none;
+}
+.link-ig:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+.link-ig:not([href]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+section#eventos form#quoteForm .form-group {
+  margin-bottom: 1.5rem;
+}
+section#eventos form#quoteForm .form-group input,
+section#eventos form#quoteForm .form-group textarea {
+  padding: 0.5rem;
+}
+section#eventos form#quoteForm .form-group input.form-control {
+  height: auto;
+}
+section#eventos form#quoteForm .form-group-textarea {
+  height: 100%;
+}
+section#eventos form#quoteForm .form-group-textarea textarea {
+  height: 100%;
+  min-height: 10rem;
+}
+section#eventos form#quoteForm p.help-block {
+  margin: 0;
+}
+section#eventos form#quoteForm .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#eventos form#quoteForm ::-webkit-input-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+section#eventos form#quoteForm :-moz-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+section#eventos form#quoteForm ::-moz-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+section#eventos form#quoteForm :-ms-input-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
 }
